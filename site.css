@@ -49,7 +49,7 @@
 /* Original podium photograph, cropped in a circle beside presentations. */
 .presentations-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:48px;align-items:center}
 .presentation-circle{position:relative;width:100%;aspect-ratio:1;border-radius:50%;overflow:hidden;margin:0}
-.presentation-circle img{position:absolute;display:block;width:147.0968%;height:auto;max-width:none;left:0;top:-68.8172%}
+.presentation-circle img{position:absolute;display:block;width:195.4286%;height:auto;max-width:none;left:0;top:-92.8571%}
 .presentations-layout .conference-list>div{grid-template-columns:145px 1fr;gap:18px}
 @media(max-width:900px){.presentations-layout{grid-template-columns:minmax(0,1fr) 270px;gap:30px}.presentations-layout .conference-list>div{grid-template-columns:1fr;gap:6px}}
 @media(max-width:650px){.presentations-layout{grid-template-columns:1fr}.presentation-circle{width:min(100%,320px);justify-self:center}}

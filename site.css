@@ -45,5 +45,5 @@
 /* Candid presentation photo: use the original camera image, retaining facial detail. */
 .campus-banner{height:clamp(320px,45vw,540px)}
 .presentation-photo{margin:0 auto;padding-top:30px;padding-bottom:30px}
-.presentation-photo img{display:block;width:100%;height:clamp(350px,44vw,520px);object-fit:cover;object-position:center 49%;filter:brightness(1.04) contrast(1.03)}
+.presentation-photo img{display:block;width:100%;height:clamp(350px,44vw,520px);object-fit:cover;object-position:center 49%}
 @media(max-width:780px){.presentation-photo img{height:360px;object-position:center 49%}}

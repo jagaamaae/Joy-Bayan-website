@@ -15,3 +15,29 @@
 /* Supporting campus photograph */
 .campus-banner{height:clamp(230px,34vw,440px);background-image:url("files/joy-campus-banner.jpg");background-size:cover;background-position:center 35%;filter:saturate(.84)}
 @media(max-width:780px){.campus-banner{height:260px;background-position:center 35%}}
+
+
+/* Research-first job market layout */
+.topbar nav{gap:17px}
+.topbar nav a{font-size:13px}
+.hero{padding-top:66px;padding-bottom:70px}
+.hero .lead{font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.6;color:var(--muted);margin:24px 0 30px}
+.research-first{padding-top:82px}
+.research-first h2{font-size:clamp(52px,7vw,84px);max-width:960px;margin:14px 0 8px}
+.paper-subtitle{font-family:Georgia,serif;font-size:clamp(23px,3vw,36px);line-height:1.35;max-width:890px;margin:0 0 32px}
+.jmp-summary{max-width:820px;border-left:4px solid var(--accent);padding-left:26px}
+.jmp-summary p{font-size:19px;line-height:1.7;margin:0}
+.paper-actions{display:flex;align-items:flex-start;gap:26px;flex-wrap:wrap;margin-top:32px}
+.unavailable{font-size:14px;border-bottom:1px solid var(--line);padding:8px 0;color:var(--muted)}
+.unavailable small{display:block;font-size:11px;color:var(--muted)}
+.abstract{margin:0;padding:8px 0;border:0;max-width:820px}
+.abstract summary{font-size:14px;border-bottom:1px solid var(--ink);padding-bottom:3px;list-style:none}
+.abstract summary::-webkit-details-marker{display:none}
+.abstract p{font-size:15px;line-height:1.75;color:var(--muted)}
+.research-list article{padding:25px 0;border-top:1px solid var(--line);max-width:900px}
+.research-list h3{margin:0 0 10px}
+.research-list p{margin:7px 0;color:var(--muted)}
+.research-list .byline{font-size:14px}
+.section{padding-top:82px;padding-bottom:85px}
+.campus-banner{height:clamp(320px,45vw,620px);background-position:center 45%}
+@media(max-width:780px){.topbar nav{gap:8px 14px}.hero{padding-top:46px;padding-bottom:52px}.research-first h2{font-size:clamp(48px,12vw,68px)}.jmp-summary p{font-size:17px}.campus-banner{height:clamp(280px,85vw,480px);background-position:center 40%}}

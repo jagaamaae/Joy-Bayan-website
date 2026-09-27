@@ -41,3 +41,9 @@
 .section{padding-top:82px;padding-bottom:85px}
 .campus-banner{height:clamp(320px,45vw,620px);background-position:center 45%}
 @media(max-width:780px){.topbar nav{gap:8px 14px}.hero{padding-top:46px;padding-bottom:52px}.research-first h2{font-size:clamp(48px,12vw,68px)}.jmp-summary p{font-size:17px}.campus-banner{height:clamp(280px,85vw,480px);background-position:center 40%}}
+
+/* Candid presentation photo: use the original camera image, retaining facial detail. */
+.campus-banner{height:clamp(320px,45vw,540px)}
+.presentation-photo{margin:0 auto;padding-top:30px;padding-bottom:30px}
+.presentation-photo img{display:block;width:100%;height:clamp(350px,44vw,520px);object-fit:cover;object-position:center 49%;filter:brightness(1.04) contrast(1.03)}
+@media(max-width:780px){.presentation-photo img{height:360px;object-position:center 49%}}

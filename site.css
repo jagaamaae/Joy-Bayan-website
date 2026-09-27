@@ -11,3 +11,7 @@
 .conference-list>div{display:grid;grid-template-columns:180px 1fr;gap:30px;border-bottom:1px solid var(--line);padding:22px 0}
 .conference-list p{margin:0;max-width:760px;color:var(--muted)}
 @media(max-width:780px){.conference-list>div{grid-template-columns:1fr;gap:6px}nav{gap:8px 15px}}
+
+/* Supporting campus photograph */
+.campus-banner{height:clamp(230px,34vw,440px);background-image:url("files/joy-campus-banner.jpg");background-size:cover;background-position:center 57%;filter:saturate(.84)}
+@media(max-width:780px){.campus-banner{height:260px;background-position:center 56%}}

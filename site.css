@@ -55,10 +55,10 @@
 @media(max-width:650px){.presentations-layout{grid-template-columns:1fr}.presentation-circle{width:min(100%,320px);justify-self:center}}
 
 /* Campus photograph behind the contact section. */
-.contact{background:#eee url("files/joy-campus-banner.jpg") center 40%/cover no-repeat;color:var(--ink);min-height:650px;padding:48px 0;display:flex;align-items:center}
-.contact>.wrap{width:min(440px,calc(100% - 40px));max-width:440px;margin-left:auto;margin-right:max(32px,calc((100vw - 1096px)/2));padding:34px;background:rgba(255,255,255,.94)}
-.contact h2{font-size:48px}
-.contact .contact-email{font-size:clamp(24px,3vw,34px);border-color:var(--muted)}
+.contact{background:#eee url("files/joy-campus-banner.jpg") center 40%/cover no-repeat;color:var(--ink);min-height:650px;padding:24px 0;display:flex;align-items:flex-start}
+.contact>.wrap{width:min(300px,calc(100% - 32px));max-width:300px;margin-left:auto;margin-right:max(24px,calc((100vw - 1096px)/2));padding:18px 22px;background:rgba(255,255,255,.94)}
+.contact h2{font-size:28px;line-height:1.2;margin:0 0 10px}
+.contact .contact-email{font-size:22px;line-height:1.4;border-color:var(--muted)}
 .contact p{color:var(--muted)}
-.contact .affiliation{margin-top:28px}
-@media(max-width:780px){.contact{min-height:720px;padding:28px 0;align-items:flex-end;background-position:44% 38%}.contact>.wrap{margin:0 auto;padding:26px}}
+.contact .affiliation{font-size:12px;line-height:1.5;margin:12px 0 0}
+@media(max-width:780px){.contact{min-height:720px;padding:20px 0;background-position:44% 38%}.contact>.wrap{margin-left:auto;margin-right:16px;padding:16px 20px}}

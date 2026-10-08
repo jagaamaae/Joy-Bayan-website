@@ -91,3 +91,37 @@
 .service-compact{padding-top:24px;padding-bottom:24px}
 .contact{min-height:600px}
 }
+
+/* Wider desktop layout: use columns while preserving reading order. */
+@media(min-width:1000px){
+  .wrap{max-width:1440px;padding-left:48px;padding-right:48px}
+  .hero{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:64px;padding-top:42px;padding-bottom:42px}
+  .hero .portrait{max-width:300px}
+  .hero h1{font-size:clamp(64px,6vw,84px)}
+  .section{padding-top:44px;padding-bottom:46px}
+  .research-first{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);column-gap:64px;grid-template-rows:auto auto auto 1fr;align-items:start}
+  .research-first>.eyebrow{grid-column:1;grid-row:1}
+  .research-first>h2{grid-column:1;grid-row:2;font-size:clamp(46px,4.2vw,62px);margin:16px 0 12px}
+  .research-first>.paper-subtitle{grid-column:1;grid-row:3;font-size:28px;margin:0;max-width:500px}
+  .research-first>.paper-actions{grid-column:1;grid-row:4;margin-top:24px}
+  .research-first>.jmp-summary{grid-column:2;grid-row:1 / span 4;max-width:760px;padding-left:30px}
+  .jmp-summary p{font-size:17px;line-height:1.75}
+  .research-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;align-items:start}
+  .research-list article{max-width:none}
+  .presentations-layout{grid-template-columns:minmax(0,1fr) 230px;gap:40px}
+  .presentations-layout .conference-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;border-top:1px solid var(--line)}
+  .presentations-layout .conference-list>div{display:block;padding:20px 0;border-bottom:0}
+  .presentations-layout .conference-list p{margin-top:14px;font-size:15px;line-height:1.8}
+  .previous-experience{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:32px;row-gap:12px}
+  .previous-experience h3{grid-column:1 / -1;margin:4px 0 8px}
+  .previous-experience p{margin:0;font-size:15px;color:var(--muted);line-height:1.8}
+  .previous-experience strong{color:var(--ink);font-weight:600}
+  #teaching .two-col{gap:64px}
+  #teaching .two-col h3{margin-top:0}
+  .service-compact{padding-top:24px;padding-bottom:24px}
+  .contact>.wrap{margin-right:max(48px,calc((100vw - 1344px)/2))}
+}
+@media(min-width:781px) and (max-width:999px){
+  .topbar{flex-wrap:wrap;padding-top:20px;padding-bottom:20px}
+  .topbar nav{flex-wrap:wrap}
+}

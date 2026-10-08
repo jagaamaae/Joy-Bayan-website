@@ -47,11 +47,11 @@
 
 
 /* Original podium photograph, cropped in a circle beside presentations. */
-.presentations-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:48px;align-items:center}
+.presentations-layout{display:grid;grid-template-columns:minmax(0,1fr) 370px;gap:48px;align-items:center}
 .presentation-circle{position:relative;width:100%;aspect-ratio:1;border-radius:50%;overflow:hidden;margin:0}
 .presentation-circle img{position:absolute;display:block;width:195.4286%;height:auto;max-width:none;left:0;top:-92.8571%}
 .presentations-layout .conference-list>div{grid-template-columns:145px 1fr;gap:18px}
-@media(max-width:900px){.presentations-layout{grid-template-columns:minmax(0,1fr) 270px;gap:30px}.presentations-layout .conference-list>div{grid-template-columns:1fr;gap:6px}}
+@media(max-width:900px){.presentations-layout{grid-template-columns:minmax(0,1fr) 310px;gap:30px}.presentations-layout .conference-list>div{grid-template-columns:1fr;gap:6px}}
 @media(max-width:650px){.presentations-layout{grid-template-columns:1fr}.presentation-circle{width:min(100%,320px);justify-self:center}}
 
 /* Campus photograph behind the contact section. */
@@ -108,7 +108,7 @@
   .jmp-summary p{font-size:17px;line-height:1.75}
   .research-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;align-items:start}
   .research-list article{max-width:none}
-  .presentations-layout{grid-template-columns:minmax(0,1fr) 230px;gap:40px}
+  .presentations-layout{grid-template-columns:minmax(0,1fr) 290px;gap:40px}
   .presentations-layout .conference-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;border-top:1px solid var(--line)}
   .presentations-layout .conference-list>div{display:block;padding:20px 0;border-bottom:0}
   .presentations-layout .conference-list p{margin-top:14px;font-size:15px;line-height:1.8}

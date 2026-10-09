@@ -140,3 +140,10 @@
   .hero .portrait{max-width:260px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Crimson university-inspired header. */
+.site-header{background:#990000;color:#fff}
+.site-header .topbar{border-bottom:0}
+.site-header .wordmark,.site-header nav a{color:#fff}
+.site-header nav a:hover{color:#fff;text-decoration:underline;text-underline-offset:5px}
+.site-header a:focus-visible{outline-color:#fff}

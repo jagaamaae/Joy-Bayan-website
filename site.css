@@ -165,3 +165,9 @@
 .teaching-experience h3{margin-top:0}
 @media(max-width:780px){.teaching-practice{grid-template-columns:1fr;gap:24px}.teaching-intro{font-size:20px}.research-first>.actions{margin-bottom:26px}}
 
+
+/* Presentations stay with their papers. */
+.paper-presentations{display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:24px;align-items:center;margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+.jmp-summary .paper-presentations p{font-size:13px;line-height:1.8;margin:0}
+.paper-presentations .presentation-circle{width:150px;justify-self:end}
+@media(max-width:650px){.paper-presentations{grid-template-columns:1fr;gap:18px}.paper-presentations .presentation-circle{width:140px;justify-self:start}}

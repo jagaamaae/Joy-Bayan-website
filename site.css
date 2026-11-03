@@ -150,3 +150,18 @@
 
 .research-intro{max-width:680px;font-size:16px;line-height:1.7;color:var(--muted);margin:0 0 28px}
 .hero .lead{margin-bottom:18px}
+
+
+/* Full abstract and prominent teaching materials. */
+.jmp-summary .abstract-label{font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+.research-first>.actions{grid-column:1;grid-row:4;margin-top:26px}
+.statement-link{margin:-10px 0 28px}
+.teaching-intro{max-width:850px;font-family:Georgia,serif;font-size:22px;line-height:1.55;margin:0 0 22px}
+.teaching-actions{margin:0 0 32px}
+.teaching-practice{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.teaching-practice h3{font-size:23px;margin:0 0 12px}
+.teaching-practice p{font-size:16px;color:var(--muted);margin:0}
+.teaching-experience{margin-top:32px}
+.teaching-experience h3{margin-top:0}
+@media(max-width:780px){.teaching-practice{grid-template-columns:1fr;gap:24px}.teaching-intro{font-size:20px}.research-first>.actions{margin-bottom:26px}}
+
